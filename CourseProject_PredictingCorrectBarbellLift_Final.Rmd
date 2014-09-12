@@ -2,14 +2,14 @@
 title: "Predicting Correctly Executed Barbell Lifts From Data Collected by Wearable Accelerometers"
 author: "Nicole Goebel"
 date: "September 3, 2014"
-output: 
-  html_document:
-    highlight: default
-    fig_width: 8
-    fig_height: 8
+#output: 
+#  html_document:
+#    highlight: default
+#    fig_width: 8
+#    fig_height: 8
 fontsize: 14pt
 geometry: margin=0.20in
-#output: pdf_document
+output: pdf_document
 ---
 #Executive Summary
 The field of Human Acivity Recognition (HAR) has emerged from the technology of wearable devices that collect information about the quantity and quality of particular activities. In this HAR analysis, data was used from a study where six participants were fitted with accelerometers on the belt, forearm, arm and a dumbell. Each participant was instructed to lift the dumbell in one correct and four incorrect manners. I use this data from the wearable devices in order to train and test a data set with a random forest machine learning algorithm to build a model to predict   whether a participant lifts the dumbell correctly or incorrectly. The most important predictive features identified by the algorithm across all factors of the response variable `classe` in the reduced training set include `roll_belt`, `pitch_belt`, `pitch_forearm`, `magnet_dumbbell_y`, `magnet_dumbbell_z` and `yaw_belt`. A cross-validation accuracy of aproximately 99% was obtained for manual and random forest cross-validation over 27 trees built. Predictions for a test set were submitted and correctly predicted all test observations (accuracy of 100%).
