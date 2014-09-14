@@ -3,7 +3,7 @@ PracticalMachineLearning
 
 Coursework for the Cousera Data Scuence signature track
 
-I was not sure which link to provide for this assignment, so I added three. The first one definitely works!
+I was not sure which link to provide for this assignment, so I added three. The first one definitely works, and simply uses the second link at the following website (http://htmlpreview.github.io)!
 
 http://htmlpreview.github.io/?https://github.com/nicolegoebel/PracticalMachineLearning/blob/master/CourseProject_PredictingCorrectBarbellLift_Final.html
 
